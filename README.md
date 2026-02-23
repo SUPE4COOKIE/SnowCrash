@@ -496,3 +496,21 @@ Check flag.Here is your token : g1qKMiRpXf53AWhDaU7FEkczr
 ## flag : g1qKMiRpXf53AWhDaU7FEkczr
 
 # flag 13
+
+création d'un executable patché qui bypass la vérification de l'UID:
+
+![exec patch](lvl13_patch.png)
+
+(changement du JZ après le CMP par un JMP sans condition)
+
+l'executable call ft_des et nous donne le flag sans avoir à comprendre toute la fonction
+
+level00@SnowCrash:~$ ls
+level13_patched
+level00@SnowCrash:~$ chmod +x level13_patched 
+level00@SnowCrash:~$ ./level13_patched 
+your token is 2A31L79asukciNyi8uppkEuSx
+
+## flag : 2A31L79asukciNyi8uppkEuSx
+
+# flag 14
