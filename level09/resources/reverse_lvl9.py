@@ -3,5 +3,5 @@ with open("token", "rb") as f:
 
 result = ""
 for i, b in enumerate(token):
-    result += chr(b - i)
+    result += chr(ord(b) - i)
 print(result)
